@@ -1,0 +1,13 @@
+@import "../fonts/fonts.css";
+
+body {
+  background: rgba(245, 247, 247, 1);
+}
+
+.cool-transition {
+  transition: all .8s cubic-bezier(.27,1.23,.36,1) 0s;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
